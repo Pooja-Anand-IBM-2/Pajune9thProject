@@ -6,21 +6,28 @@
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <value name="name">Pajune9thProject</value>
-  <null name="startup_services"/>
-  <null name="shutdown_services"/>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="wm.cloudstreams.pajune9th.Pajune9thProject.plm:registerProvider"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="wm.cloudstreams.pajune9th.Pajune9thProject.plm:unregisterProvider"/>
+  </record>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmCloudStreams">12.1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">09-06-2026 18:04:36 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-09T18:04:39.463671288Z</value>
+  <value name="lastUpdated">2026-06-09T18:05:16.927843564Z</value>
   <value name="wmProjectId">fl798a78b54668467cb1729b611ea9ab60</value>
   <value name="creator">Pooja Anand</value>
+  <null name="publisher"/>
 </Values>
